@@ -22,6 +22,22 @@ git init -b {main} = the git initialize with the branch name main
 
 => git rm --{file_name.txt} : to remove a file from the git
 
-=> git push origin main : after commiting the changes will not be shown on the branch or the github and this commands helps in pushing the commits to the specified branches.
+=> git push origin main : after commiting the changes will not be shown on the branch or the github and this commands helps in pushing the commits to the specified branches (in this case the main branch).
 
-testing
+=> git remote add origin "URL" : this command is used to move the local files to the github account in which first we have to create a new repo on our account then we will get a HTTPS link from there and paste it on the place or the URl
+
+=> git branch : to check in which branch we are in currently
+
+git branch -M main : to rename branch
+
+=> git checkout -b {new_branch_name} : used to create a new branch
+
+=> git checkout {branch name} : to navigate branch
+
+=> git branch : to check the branch we are in
+
+=> git branch -M main : to rename the branch
+
+=> git checkout -d {branch_name} : to delete the branch
+
+branch1 content
