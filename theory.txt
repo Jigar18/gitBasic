@@ -40,5 +40,12 @@ git branch -M main : to rename branch
 
 => git checkout -d {branch_name} : to delete the branch
 
-=> git diff {branch name} : to check difference between the branches (can also be done on Github itself) (check)
-=> git diff {branch name} : to check difference between the branches (can also be done on Github itself)  (check)
+=> git diff {branch name} : to check difference between the branches (can also be done on Github itself)
+
+=> git pull origin {branch_name} : to bring the changes in the current brnach from the (brnach_name).
+
+=> git reset {filename} || git reset : if we've added the file in the staging area (add . ) then to unstage it we use this command and then it is not ready to commit (this command does not bring back the old code)
+
+=> git reset HEAD~1 : when we done the staging as well as the commit and then if we have to remove the commit then we can use this command for a single file. The HEAD~1 in this is the latest commit we made {always the same} and we are reseting it
+
+=> git reset {commit hash} : if we want to go more than one commit behind then we can use this command. In this command the hash is the long value which we get on performing git log and on whichever commit we want to go we just replace the hash in this command with the commit hash <--the commit looks like this {cfe14256ae65aa76e0ec0e0e9a15744ea7283886} -->
