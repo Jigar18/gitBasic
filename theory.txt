@@ -41,3 +41,4 @@ git branch -M main : to rename branch
 => git checkout -d {branch_name} : to delete the branch
 
 => git diff {branch name} : to check difference between the branches (can also be done on Github itself) (check)
+=> git diff {branch name} : to check difference between the branches (can also be done on Github itself)  (check)
